@@ -16,8 +16,8 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "NiceLogger"
-  spec.version      = "1.0.1"
-  spec.summary      = "A short description of NiceLogger."
+  spec.version      = "1.0.3"
+  spec.summary      = "a very useful summary to avoid warning axxaaxaxaxax"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,10 +25,11 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-    This is sample description
+     This is sample descriptionThis is sample descriptionThis is sample descriptionThis is sample descriptionThis is sample descriptionThis is sample descriptionThis is sample description
+     This is sample descriptionThis is sample descriptionThis is sample descriptionThis is sample descriptionThis is sample descriptionThis is sample descriptionThis is sample description
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/NiceLogger"
+  spec.homepage     = "http://www.google.com"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -80,7 +81,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/21DerickDerick/NiceLogger.git", :tag => "1.0.1" }
+  spec.source       = { :git => "https://github.com/21DerickDerick/NiceLogger.git", :tag => "1.0.3" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +92,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = { :http => 'https://github.com/21DerickDerick/NiceLogger/blob/master/NiceLogger.framework.zip' }
+  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
